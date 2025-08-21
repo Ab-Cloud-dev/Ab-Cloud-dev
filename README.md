@@ -16,24 +16,28 @@
 
 ## 🎯 About Me
 
-<img align="right" alt="Coding" width="400" src="./Details/p1.gif">
+<img align="right" alt="Coding" width="450" src="./Details/p1.gif">
 
 ```
- mohammed = {
-    role: "Technical Support Specialist @ Avaya",
-    experience: "6+ years",
+const MohammedAbdullah = {
     specializations: [
         "Enterprise VoIP & UC Solutions",
         "Cloud Infrastructure (AWS/Azure)",
         "Network Security & Automation",
         "Infrastructure as Code"
     ],
-    currentFocus: "Cloud Computing & DevOps @ IIT Roorkee",
+    currentFocus: "Cloud Computing & DevOps",
     achievements: [
         "Contractor → Direct Hire @ Avaya",
         "Zero-downtime enterprise migrations",
         "10,000+ participant event support"
     ]
+ expertise: {
+        cloud: ["AWS", "Azure", "VMware ESXi"],
+        voip: ["Avaya Aura", "Microsoft Teams Direct Routing", "SIP/H.323"],
+        automation: ["Terraform", "Packer", "Ansible", "Python"],
+        networking: ["TCP/IP", "SSL/TLS", "VPN", "LDAP", "Active Directory"]
+    }
 };
 ```
 
