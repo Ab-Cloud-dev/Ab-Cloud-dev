@@ -6,7 +6,7 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00D4FF&center=true&vCenter=true&width=800&height=80&lines=IT+Infrastructure+Engineer;Cloud+Solutions+Architect;Avaya+Specialist;AWS+%26+Azure+Expert;DevOps+Enthusiast" alt="Typing SVG" />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mohammed-abdullah--cloudengineer)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ab-cloud-dev/)
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohammed.abdullah700@gmail.com)
 [![Certifications](https://img.shields.io/badge/Credly-FF6B35?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/users/abdullah-cert)
 
@@ -18,8 +18,8 @@
 
 <img align="right" alt="Coding" width="400" src="./Details/p1.gif">
 
-```typescript
-const mohammed = {
+```
+ mohammed = {
     role: "Technical Support Specialist @ Avaya",
     experience: "6+ years",
     specializations: [
