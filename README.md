@@ -83,10 +83,10 @@ terraform apply
 
 **Automated AMI creation pipeline for enterprise workloads**
 
-🔹 **Multi-OS support** (Ubuntu/CentOS/Windows)  
-🔹 **Security hardening built-in**  
+🔹 **AWS AMI Automation Lab Series**
+🔹 **Basic Security Hardening with Packer + Ansible**  
 🔹 **Automated patching & updates**  
-🔹 **Docker & K8s ready images**  
+🔹 **Baking Web Apps in Custom AMIs**  
 🔹 **CI/CD pipeline integration**  
 
 ```json
