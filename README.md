@@ -84,7 +84,7 @@ terraform apply
 **Automated AMI creation pipeline for enterprise workloads**
 
 🔹 **AWS AMI Automation Lab Series**
-🔹 **Basic Security Hardening with Packer + Ansible**  
+🔹 **Security Hardening with Packer + Ansible**  
 🔹 **Automated patching & updates**  
 🔹 **Baking Web Apps in Custom AMIs**  
 🔹 **CI/CD pipeline integration**  
