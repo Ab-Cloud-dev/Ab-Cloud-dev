@@ -98,7 +98,7 @@ terraform apply
 }
 ```
 
-**[📁 View Repository →](link-to-your-packer-repo)**
+**[📁 View Repository →](https://github.com/Ab-Cloud-dev/Custom-AMI-Packer.git)**
 
 </td>
 </tr>
