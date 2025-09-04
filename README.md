@@ -49,7 +49,7 @@ const MohammedAbdullah = {
 
 <table>
 <tr>
-<td width="70%">
+<td width="60%">
 
 ### 🌩️ **"AWS DevOps & Infrastructure Automation Showcase**
 
@@ -58,6 +58,7 @@ const MohammedAbdullah = {
 
 
 🔹 **🎮 Kubernetes 2048 Game Deployment using EKS Fargate containers.**
+
 🔹 **☁️ Enterprise Application Migration to AWS infrastructure.**  
 🔹 **💾 Automated EBS Backup using Lambda-based**  
 🔹 **📁 S3 event-driven File Transfer Automation **  
@@ -70,7 +71,7 @@ terraform plan -var-file="prod.tfvars"
 terraform apply
 ```
 
-**[📁 View Repository →](link-to-your-aws-repo)**
+**[📁 View Repository →]([link-to-your-aws-repo](https://github.com/Ab-Cloud-dev/AWS-Projects))**
 
 </td>
 <td width="50%">
@@ -83,6 +84,7 @@ terraform apply
 **Automated AMI creation pipeline for enterprise workloads**
 
 🔹 **AWS AMI Automation Lab Series**
+
 🔹 **Security Hardening with Packer + Ansible**  
 🔹 **Automated patching & updates**  
 🔹 **Baking Web Apps in Custom AMIs**  
