@@ -49,20 +49,19 @@ const MohammedAbdullah = {
 
 <table>
 <tr>
-<td width="50%">
+<td width="70%">
 
-### 🌩️ **AWS Infrastructure Automation**
+### 🌩️ **"AWS DevOps & Infrastructure Automation Showcase**
 
 [![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws)](link-to-repo)
 [![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform)](link-to-repo)
 
-**Enterprise-grade AWS infrastructure deployment with Terraform**
 
-🔹 **Multi-environment setup** (Dev/Staging/Prod)  
-🔹 **Auto-scaling VPC architecture**  
-🔹 **Security groups & IAM policies**  
-🔹 **RDS with automated backups**  
-🔹 **CloudWatch monitoring & alerts**  
+🔹 **🎮 Kubernetes 2048 Game Deployment using EKS Fargate containers.**
+🔹 **☁️ Enterprise Application Migration to AWS infrastructure.**  
+🔹 **💾 Automated EBS Backup using Lambda-based**  
+🔹 **📁 S3 event-driven File Transfer Automation **  
+
 
 ```bash
 # Quick deployment
