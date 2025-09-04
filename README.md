@@ -71,7 +71,7 @@ terraform plan -var-file="prod.tfvars"
 terraform apply
 ```
 
-**[📁 View Repository →]([link-to-your-aws-repo](https://github.com/Ab-Cloud-dev/AWS-Projects))**
+**[📁 View Repository →]([https://github.com/Ab-Cloud-dev/AWS-Projects])**
 
 </td>
 <td width="50%">
