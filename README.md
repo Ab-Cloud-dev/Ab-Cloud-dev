@@ -53,12 +53,11 @@ const MohammedAbdullah = {
 
 ### 🌩️ **"AWS DevOps & Infrastructure Automation Showcase**
 
-[![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws)](link-to-repo)
-[![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform)](link-to-repo)
+[![CICD](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws)](https://github.com/Ab-Cloud-dev/CI-CD-Pipeline-with-Jenkins-Kubernetes-and-Ansible)
+[![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform)](https://github.com/Ab-Cloud-dev/TerraForm-Iac-)
 
 
 🔹 **🎮 Kubernetes 2048 Game Deployment using EKS Fargate containers.**
-
 🔹 **☁️ Enterprise Application Migration to AWS infrastructure.**  
 🔹 **💾 Automated EBS Backup using Lambda-based**  
 🔹 **📁 S3 event-driven File Transfer Automation **  
