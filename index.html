@@ -7,14 +7,14 @@
     <meta name="keywords" content="Cloud Engineer, AWS, Azure, DevOps, VoIP, Avaya, Infrastructure">
     <meta name="author" content="Mohammed Abdullah">
     <title>Mohammed Abdullah - Cloud Solutions Architect</title>
-    
+
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
+
     <style>
         :root {
             --primary-color: #00d4ff;
@@ -393,7 +393,7 @@
                     <i class="fas fa-envelope" aria-hidden="true"></i>
                 </a>
                 <a href="https://www.credly.com/users/abdullah-cert" class="social-link" aria-label="Credly certifications" target="_blank" rel="noopener noreferrer">
-                    <i class="fas fa-certificate" aria-hidden="true"></i>
+                    <i class="fab fa-credly" aria-hidden="true"></i>
                 </a>
             </div>
             <p class="mb-0">&copy; 2025 Mohammed Abdullah. All rights reserved.</p>
@@ -407,6 +407,17 @@
     <script>
         // Projects data
         const projects = [
+            {
+                name: "CI/CD Pipeline with Jenkins, Kubernetes, and Ansible",
+                description: "Robust CI/CD pipeline implementation automating build, test, and deployment processes for containerized applications. Demonstrates end-to-end software delivery using Jenkins, Kubernetes, and Ansible for reliable and efficient deployment workflows.",
+                github: "https://github.com/Ab-Cloud-dev/CI-CD-Pipeline-with-Jenkins-Kubernetes-and-Ansible",
+                gif: "https://github.com/Ab-Cloud-dev/CI-CD-Pipeline-with-Jenkins-Kubernetes-and-Ansible/blob/main/images/Recording%202025-09-18%20195708.gif"
+            },
+            {
+                name: "100-Days-Of-DevOps-KodeKloud-Solutions-Explanation",
+                description: "A comprehensive personal and community challenge documenting 100 days of DevOps learning. Built around KodeKloud's DevOps track, featuring daily task completions, detailed explanations, and real-world application examples of DevOps tools, concepts, and best practices.",
+                github: "https://github.com/Ab-Cloud-dev/100-Days-Of-DevOps-KodeKloud-Solutions-Explanation"
+            },
             {
                 name: "AWS DevOps & Infrastructure Automation",
                 description: "Comprehensive showcase featuring Kubernetes 2048 Game Deployment using EKS Fargate, Enterprise Application Migration to AWS, Automated EBS Backup using Lambda, and S3 event-driven File Transfer Automation.",
@@ -453,7 +464,7 @@
         function toggleTheme() {
             const currentTheme = document.documentElement.getAttribute('data-bs-theme');
             const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-            
+
             document.documentElement.setAttribute('data-bs-theme', newTheme);
             localStorage.setItem('theme', newTheme);
             updateThemeIcon(newTheme);
@@ -474,13 +485,13 @@
 
         function animateBio() {
             const bioElements = document.querySelectorAll('.bio-text');
-            
+
             // Remove active class from all
             bioElements.forEach(el => el.classList.remove('active'));
-            
+
             // Add active class to current
             bioElements[currentBioIndex].classList.add('active');
-            
+
             // Move to next sentence
             currentBioIndex = (currentBioIndex + 1) % bioSentences.length;
         }
@@ -488,14 +499,21 @@
         // Projects rendering
         function renderProjects() {
             const container = document.getElementById('projectsContainer');
-            
+
             projects.forEach(project => {
                 const projectCol = document.createElement('div');
                 projectCol.className = 'col-md-4 mb-4';
-                
+
+                const gifSection = project.gif ? `
+                    <div class="project-gif mb-3">
+                        <img src="${project.gif}" alt="${project.name} demonstration" class="img-fluid rounded" style="width: 100%; height: 200px; object-fit: cover;">
+                    </div>
+                ` : '';
+
                 projectCol.innerHTML = `
                     <article class="project-card">
                         <div class="project-card-body">
+                            ${gifSection}
                             <h3 class="project-title">${project.name}</h3>
                             <p class="project-description">${project.description}</p>
                             <a href="${project.github}" class="project-btn" target="_blank" rel="noopener noreferrer" aria-label="View ${project.name} on GitHub">
@@ -504,7 +522,7 @@
                         </div>
                     </article>
                 `;
-                
+
                 container.appendChild(projectCol);
             });
         }
@@ -552,32 +570,26 @@
             });
         }
 
-        // Error handling for image loading
-        function handleImageError(img) {
-            img.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjNjY3ZWVhIiByeD0iMTAwIi8+CjxjaXJjbGUgY3g9IjEwMCIgY3k9IjgwIiByPSIzMCIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTUwIDEzNUM1MCA5NS44MTc2IDc1LjgxNzYgNzAgMTAwIDcwQzEyNC4xODIgNzAgMTUwIDk1LjgxNzYgMTUwIDEzNVYyMDBINTBWMTM1WiIgZmlsbD0id2hpdGUiLz4KPHN2Zz4=';
-            img.alt = 'Profile placeholder';
-        }
-
         // Initialize everything
         document.addEventListener('DOMContentLoaded', function() {
             // Initialize theme
             initializeTheme();
-            
+
             // Create bio elements and start animation
             createBioElements();
             animateBio(); // Start immediately
-            setInterval(animateBio, 3000); // Continue every 3 seconds
-            
+            window.bioInterval = setInterval(animateBio, 3000); // Continue every 3 seconds
+
             // Render projects
             renderProjects();
-            
+
             // Initialize other features
             initSmoothScrolling();
             initScrollAnimations();
-            
+
             // Add event listeners
             document.getElementById('themeToggle').addEventListener('click', toggleTheme);
-            
+
             // Keyboard navigation for theme toggle
             document.getElementById('themeToggle').addEventListener('keydown', function(e) {
                 if (e.key === 'Enter' || e.key === ' ') {
