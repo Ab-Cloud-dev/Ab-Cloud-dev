@@ -14,11 +14,13 @@
 
 </div>
 
+<br>
+
 ## 🎯 About Me
 
 <img align="right" alt="Coding" width="450" src="./Details/p1.gif">
 
-```
+```javascript
 const MohammedAbdullah = {
     specializations: [
         "Enterprise VoIP & UC Solutions",
@@ -31,8 +33,8 @@ const MohammedAbdullah = {
         "Contractor → Direct Hire @ Avaya",
         "Zero-downtime enterprise migrations",
         "10,000+ participant event support"
-    ]
- expertise: {
+    ],
+    expertise: {
         cloud: ["AWS", "Azure", "VMware ESXi"],
         voip: ["Avaya Aura", "Microsoft Teams Direct Routing", "SIP/H.323"],
         automation: ["Terraform", "Packer", "Ansible", "Python"],
@@ -45,23 +47,28 @@ const MohammedAbdullah = {
 
 ---
 
+<br>
+
 ## 🏆 Featured Projects
 
 <table>
 <tr>
-<td width="60%">
+<td width="50%">
 
-### 🌩️ **"AWS DevOps & Infrastructure Automation Showcase**
+### ☁️ **AWS DevOps & Infrastructure Automation Showcase**
 
 [![CICD](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws)](https://github.com/Ab-Cloud-dev/CI-CD-Pipeline-with-Jenkins-Kubernetes-and-Ansible)
 [![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform)](https://github.com/Ab-Cloud-dev/TerraForm-Iac-)
 
+🔹 **🎮 Kubernetes 2048 Game Deployment using EKS Fargate containers**
 
-🔹 **🎮 Kubernetes 2048 Game Deployment using EKS Fargate containers.**
-🔹 **☁️ Enterprise Application Migration to AWS infrastructure.**  
-🔹 **💾 Automated EBS Backup using Lambda-based**  
-🔹 **📁 S3 event-driven File Transfer Automation **  
+🔹 ☁️ [**CI/CD Pipeline with Jenkins, Kubernetes, and Ansible**](https://github.com/Ab-Cloud-dev/CI-CD-Pipeline-with-Jenkins-Kubernetes-and-Ansible)
 
+🔹 💾 [**Automated EBS Backup using Lambda-based**](https://github.com/Ab-Cloud-dev/AWS-Projects/tree/main/3.%20EBS%20Snapshot%20Automation%20Using%20Lambda)
+
+🔹 📁 [**S3 event-driven File Transfer Automation**](https://github.com/Ab-Cloud-dev/AWS-Projects/tree/main/4.%20Aws-S3-Lambda-Automation)
+
+🔹 [**Containerized Application Deployment with CI/CD on AWS ECS**](https://github.com/Ab-Cloud-dev/AWS-Projects/tree/main/6.%20Containerized%20App%20Deployment%20with%20CICD%20on%20ECS)
 
 ```bash
 # Quick deployment
@@ -70,7 +77,7 @@ terraform plan -var-file="prod.tfvars"
 terraform apply
 ```
 
-**[📁 View Repository →](https://github.com/Ab-Cloud-dev/AWS-Projects)**
+**[📂 View Repository →](https://github.com/Ab-Cloud-dev/AWS-Projects)**
 
 </td>
 <td width="50%">
@@ -84,10 +91,13 @@ terraform apply
 
 🔹 **AWS AMI Automation Lab Series**
 
-🔹 **Security Hardening with Packer + Ansible**  
-🔹 **Automated patching & updates**  
-🔹 **Baking Web Apps in Custom AMIs**  
-🔹 **CI/CD pipeline integration**  
+🔹 [**Security Hardening with Packer + Ansible**](https://github.com/Ab-Cloud-dev/Custom-AMI-Packer/tree/main/06--Basic%20Security%20Hardending%20the%20Image)
+
+🔹 [**Building AWS AMIs with Packer Templates**](https://github.com/Ab-Cloud-dev/Custom-AMI-Packer/tree/main/01-%20Building%20AWS%20AMIs%20with%20Packer%20Templates)
+
+🔹 [**Baking Web Apps in Custom AMIs**](https://github.com/Ab-Cloud-dev/Custom-AMI-Packer/tree/main/03-%20Baking%20Web%20App%20in%20Custom%20AMI%20Using%20Packer)
+
+🔹 [**Packer Post-Processors - Artifact Management and Tracking**](https://github.com/Ab-Cloud-dev/Custom-AMI-Packer/tree/main/04-%20Packer%20Post-Processors)
 
 ```json
 {
@@ -98,13 +108,17 @@ terraform apply
 }
 ```
 
-**[📁 View Repository →](https://github.com/Ab-Cloud-dev/Custom-AMI-Packer.git)**
+**[📂 View Repository →](https://github.com/Ab-Cloud-dev/Custom-AMI-Packer.git)**
 
 </td>
 </tr>
 </table>
 
+<br>
+
 ---
+
+<br>
 
 ## 🛠️ Technology Arsenal
 
@@ -116,7 +130,7 @@ terraform apply
 ![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 ![VMware](https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white)
 
-### 🏗️ **Infrastructure as Code**
+### 🗃️ **Infrastructure as Code**
 
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![Packer](https://img.shields.io/badge/Packer-02A8EF?style=for-the-badge&logo=packer&logoColor=white)
@@ -134,7 +148,7 @@ terraform apply
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 
-### 🌐 **Networking & VoIP**
+### 📡 **Networking & VoIP**
 
 ![Avaya](https://img.shields.io/badge/Avaya-ED1C24?style=for-the-badge&logo=avaya&logoColor=white)
 ![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
@@ -142,7 +156,11 @@ terraform apply
 
 </div>
 
+<br>
+
 ---
+
+<br>
 
 ## 🏅 Certifications & Achievements
 
@@ -177,7 +195,11 @@ terraform apply
 
 </div>
 
+<br>
+
 ---
+
+<br>
 
 ## 💼 Professional Journey
 
@@ -206,18 +228,24 @@ timeline
 
 </div>
 
+<br>
+
 ### 🎯 **Current Role @ Avaya** *| Technical Support Specialist*
 
 <details>
-<summary>🔍 <strong>Key Achievements & Responsibilities</strong> (Click to expand)</summary>
+<summary>📋 <strong>Key Achievements & Responsibilities</strong> (Click to expand)</summary>
+
+<br>
 
 #### 🚀 **Major Accomplishments**
 
 - 🏆 **Promoted from contractor to direct hire** based on exceptional performance
-- 🌩️ **Led zero-downtime migrations** of critical enterprise systems
+- ☁️ **Led zero-downtime migrations** of critical enterprise systems
 - 🔧 **Integrated Microsoft Teams Direct Routing** with Avaya Aura infrastructure
 - 🛡️ **Implemented enterprise security protocols** (SRTP, TLS, SSL)
 - 📊 **Managed 24/7 support** for global enterprise clients
+
+<br>
 
 #### 🔧 **Technical Expertise Applied**
 
@@ -239,6 +267,8 @@ Automation & Monitoring:
   - Incident response workflows
 ```
 
+<br>
+
 #### 📈 **Impact Metrics**
 
 - ⚡ **99.9% uptime** maintained across managed systems
@@ -248,7 +278,11 @@ Automation & Monitoring:
 
 </details>
 
+<br>
+
 ---
+
+<br>
 
 ## 📊 GitHub Analytics
 
@@ -259,25 +293,35 @@ Automation & Monitoring:
 
 </div>
 
+<br>
+
 <div align="center">
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Ab-Cloud-dev&theme=tokyonight)
 
 </div>
 
+<br>
+
 ---
+
+<br>
 
 ## 🗂️ Repository Portfolio
 
 <div align="center">
 
-| 🌩️ **Cloud Infrastructure**                                                                                                                                                                                      | 📦 **Automation & IaC**                                                                                                                                                                      | 🌐 **Networking & VoIP**                                                                                                                                                                             |
-|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| ☁️ **Cloud Infrastructure** | 📦 **Automation & IaC** | 📡 **Networking & VoIP** |
+|:---------------------------:|:-----------------------:|:------------------------:|
 | [![AWS Infrastructure](https://github-readme-stats.vercel.app/api/pin/?username=Ab-Cloud-dev&repo=aws-terraform-infrastructure&theme=tokyonight)](https://github.com/Ab-Cloud-dev/aws-terraform-infrastructure) | [![Packer Images](https://github-readme-stats.vercel.app/api/pin/?username=Ab-Cloud-dev&repo=packer-golden-images&theme=tokyonight)](https://github.com/Ab-Cloud-dev/packer-golden-images) | [![Avaya Scripts](https://github-readme-stats.vercel.app/api/pin/?username=Ab-Cloud-dev&repo=avaya-automation-scripts&theme=tokyonight)](https://github.com/Ab-Cloud-dev/avaya-automation-scripts) |
 
 </div>
 
+<br>
+
 ---
+
+<br>
 
 ## 🎓 Continuous Learning
 
@@ -295,6 +339,8 @@ Automation & Monitoring:
 - CI/CD pipeline optimization
 - Infrastructure monitoring & observability
 
+<br>
+
 ### 🎯 **Next Learning Goals**
 
 - [ ] AWS Solutions Architect Professional
@@ -304,7 +350,11 @@ Automation & Monitoring:
 
 <br clear="both"/>
 
+<br>
+
 ---
+
+<br>
 
 ## 🤝 Let's Collaborate!
 
@@ -312,12 +362,14 @@ Automation & Monitoring:
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+<br>
+
 ### 🚀 **Open to exciting opportunities in:**
 
-🌩️ **Cloud Architecture & Migration Projects**  
+☁️ **Cloud Architecture & Migration Projects**  
 📞 **Enterprise VoIP & UC Solutions**  
 🔧 **DevOps & Infrastructure Automation**  
-🛡️ **Network Security & Compliance**  
+🛡️ **Network Security & Compliance**
 
 <br>
 
@@ -328,6 +380,8 @@ Automation & Monitoring:
 
 **⭐ Star my repositories if you find them helpful!**  
 **🤝 Open to collaboration and mentoring opportunities**
+
+<br>
 
 <img src="https://komarev.com/ghpvc/?username=Ab-Cloud-dev&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
 
