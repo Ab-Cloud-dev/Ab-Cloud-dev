@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Mohammed Abdullah - IT Infrastructure Engineer specializing in Cloud Solutions, VoIP Architecture, and DevOps">
-    <meta name="keywords" content="Cloud Engineer, AWS, Azure, DevOps, VoIP, Avaya, Infrastructure">
+    <meta name="keywords" content="Cloud Engineer, AWS, Azu                            <img src="myphoto.jpeg" alt="Mohammed Abdullah - Professional headshot" class="profile-photo mb-4" loading="lazy" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjNjY3ZWVhIiByeD0iMTAwIi8+CjxjaXJjbGUgY3g9IjEwMCIgY3k9IjgwIiByPSIzMCIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTUwIDEzNUM1MCA5NS44MTc2IDc1LjgxNzYgNzAgMTAwIDcwQzEyNC4xODIgNzAgMTUwIDk1LjgxNzYgMTUwIDEzNVYyMDBINTBWMTM1WiIgZmlsbD0id2hpdGUiLz4KPHN2Zz4='; this.alt='Default profile placeholder';">                           <img src="myphoto.jpeg" alt="Mohammed Abdullah - Professional headshot" class="profile-photo mb-4" loading="lazy" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjNjY3ZWVhIiByeD0iMTAwIi8+CjxjaXJjbGUgY3g9IjEwMCIgY3k9IjgwIiByPSIzMCIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTUwIDEzNUM1MCA5NS44MTc2IDc1LjgxNzYgNzAgMTAwIDcwQzEyNC4xODIgNzAgMTUwIDk1LjgxNzYgMTUwIDEzNVYyMDBINTBWMTM1WiIgZmlsbD0id2hpdGUiLz4KPHN2Zz4='; this.alt='Default profile placeholder';">"e, DevOps, VoIP, Avaya, Infrastructure">
     <meta name="author" content="Mohammed Abdullah">
     <title>Mohammed Abdullah - Cloud Solutions Architect</title>
 
@@ -410,8 +410,9 @@
             {
                 name: "CI/CD Pipeline with Jenkins, Kubernetes, and Ansible",
                 description: "Robust CI/CD pipeline implementation automating build, test, and deployment processes for containerized applications. Demonstrates end-to-end software delivery using Jenkins, Kubernetes, and Ansible for reliable and efficient deployment workflows.",
-                github: "https://github.com/Ab-Cloud-dev/CI-CD-Pipeline-with-Jenkins-Kubernetes-and-Ansible",
-                gif: "https://github.com/Ab-Cloud-dev/CI-CD-Pipeline-with-Jenkins-Kubernetes-and-Ansible/blob/main/images/Recording%202025-09-18%20195708.gif?raw=true"
+                github: "https://github.com/Ab-Cloud-dev/CI-CD-Pipeline-with-Jenkins-Kubernetes-and-Ansible"
+                // Temporarily removing gif to fix loading issue
+                // gif: "https://github.com/Ab-Cloud-dev/CI-CD-Pipeline-with-Jenkins-Kubernetes-and-Ansible/blob/main/images/Recording%202025-09-18%20195708.gif?raw=true"
             },
             {
                 name: "100-Days-Of-DevOps-KodeKloud-Solutions-Explanation",
@@ -506,7 +507,7 @@
 
                 const gifSection = project.gif ? `
                     <div class="project-gif mb-3">
-                        <img src="${project.gif}" alt="${project.name} demonstration" class="img-fluid rounded" style="width: 100%; height: 200px; object-fit: cover;">
+                        <img src="${project.gif}" alt="${project.name} demonstration" class="img-fluid rounded" style="width: 100%; height: 200px; object-fit: cover;" loading="lazy" onerror="this.style.display='none';">
                     </div>
                 ` : '';
 
@@ -601,12 +602,20 @@
 
         // Handle visibility change to pause/resume animations
         document.addEventListener('visibilitychange', function() {
-            if (document.hidden) {
-                // Pause animations when tab is not visible
-                clearInterval(window.bioInterval);
-            } else {
-                // Resume animations when tab becomes visible
-                window.bioInterval = setInterval(animateBio, 3000);
+            try {
+                if (document.hidden) {
+                    // Pause animations when tab is not visible
+                    if (window.bioInterval) {
+                        clearInterval(window.bioInterval);
+                    }
+                } else {
+                    // Resume animations when tab becomes visible
+                    if (!window.bioInterval) {
+                        window.bioInterval = setInterval(animateBio, 3000);
+                    }
+                }
+            } catch (error) {
+                console.log('Animation handling error:', error);
             }
         });
     </script>
